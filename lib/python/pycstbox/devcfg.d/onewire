@@ -1,0 +1,7 @@
+{
+    "protocol" : "onewire",
+    "description" : {
+        "*" : "Réseau 1-Wire",
+        "en" : "1-Wire devices network"
+    }
+}

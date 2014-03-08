@@ -1,0 +1,48 @@
+div.devices-table {
+    text-align: center;
+}
+
+div#table-body {
+    overflow: auto;
+}   
+
+table {
+    border-spacing: 5px;
+    margin: auto;
+}
+
+table#devices-head {
+    color: grey;
+    font-size: 120%;
+}
+
+table#devices-head th {
+    border-bottom : 1px solid;
+}
+
+table#devices-head th, table#devices td {
+    padding : 5px;
+    text-align: left;
+}
+table#devices td {
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+table#devices-foot {
+    font-style: italic;
+    color: #2E6E9E;
+}
+
+table#devices-foot td {
+    text-align: center;
+}
+
+.device-address {
+    width: 250px;
+}
+
+.device-type {
+    width: 150px;
+}
+

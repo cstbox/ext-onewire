@@ -1,0 +1,37 @@
+{% extends "webui-base.html" %}
+
+{% block local_css %}
+<link href="{{url_base}}/res/onewire.css" rel="stylesheet" type="text/css" />
+{% end %}
+
+{% block local_scripts %}
+<script src="{{url_base}}/res/onewire.js" type="text/javascript"></script>
+<script src="/res/js/jquery.form.js" type="text/javascript"></script>
+<script src="/res/js/jquery.validate.js" type="text/javascript"></script>
+<script src="/res/js/jquery.localize.js" type="text/javascript"></script>
+{% end %}
+
+{% block weblet_title %}{{_('1-Wire tools')}}{% end %}
+
+{% block content %}
+
+<div class="ui-widget-content ui-corner-all ui-transp-bkgnd ui-full-page">
+    <div id="status" class="status ui-corner-all" style="display: none"></div>
+    <h2>{{_('Detected 1-wire devices')}} </h2>
+    <div class="devices-table">
+        <div id="table-head">
+            <table id="devices-head">
+                <tr>
+                    <th class="device-address">{{_('Address')}}</th>
+                    <th class="device-type">{{_('Type')}}</th>
+                </tr>
+            </table>
+        </div>
+        <div id="table-body">
+            <table id="devices">
+            </table>
+        </div>
+    </div>
+</div>
+
+{% end %}
