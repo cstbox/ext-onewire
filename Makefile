@@ -6,7 +6,7 @@
 # author = Eric PASCUAL - CSTB (eric.pascual@cstb.fr)
 
 # name of the CSTBox module
-MODULE_NAME=onewire
+MODULE_NAME=ext-onewire
 
 include $(CSTBOX_DEVEL_HOME)/lib/makefile-dist.mk
 
@@ -14,6 +14,7 @@ copy_files: \
 	check_metadata_files \
 	copy_bin_files \
 	copy_python_files \
+	copy_devices_metadata_files \
 	copy_init_scripts 
 	@echo '----- copying customized owfs configuration...'
 	$(RSYNC) \
