@@ -1,4 +1,4 @@
-Package: cstbox-onewire
+Package: cstbox-ext-onewire
 Version: 1.0.0
 Section: base
 Priority: optional
