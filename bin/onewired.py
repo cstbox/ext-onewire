@@ -50,7 +50,7 @@ if __name__ == '__main__':
 
         svc.log_setLevel_from_args(args)
         # load the configuration data for 1-Wire coordinators
-        svc.load_configuration(
+        svc._load_configuration(
             dict([(k, v) for k, v in cfg.iteritems() if v.type == 'onewire'])
         )
         svc.start()
