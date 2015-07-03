@@ -1,9 +1,9 @@
 Package: cstbox-ext-onewire
-Version: 1.0.0
+Version: 1.0.1
 Section: base
 Priority: optional
 Architecture: all
-Depends: cstbox-core, python-ow
+Depends: cstbox-core, owserver, python-ow
 Maintainer: Eric Pascual <eric.pascual@cstb.fr>
 Description: CSTBox 1-Wire devices support
     This package adds to an existing CSTBox framework the support
