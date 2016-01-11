@@ -1,5 +1,5 @@
 Package: cstbox-ext-onewire
-Version: 1.0.1
+Version: %(version)s
 Section: embedded
 Priority: optional
 Architecture: all
