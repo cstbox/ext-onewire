@@ -1,3 +1,5 @@
+/DEBIAN/control
+/RELEASE-VERSION
 .backup
 *~
 *.pyc
