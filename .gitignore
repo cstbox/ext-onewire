@@ -14,3 +14,5 @@
 cstbox-*_all/
 deprecated/
 lib/python/pycstbox/__init__.pyfabfile-settings.py
+fabfile-settings.py
+lib/python/pycstbox/__init__.py
