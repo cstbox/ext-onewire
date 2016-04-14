@@ -19,6 +19,7 @@ NAME=cstbox-onewire
 DAEMON=/opt/cstbox/bin/onewired.py
 DAEMON_ARGS=
 INIT_VERBOSE=yes
+CAN_FAIL=yes
 
 DEPENDS=owserver
 
